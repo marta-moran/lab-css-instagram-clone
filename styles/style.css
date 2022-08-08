@@ -4,7 +4,97 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+
+h1 {
+  color: #06365f;
+
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/bgtile.png");
+  object-fit: cover;
+  padding: 7%;
+  align-items: center
+}
+
+.img-logo {
+  padding-left: 120px;
+}
+
+.log-in-button {
+  display: flex;
+  align-items: center;
+  background-color: #1c5380;
+  border: 1.5px solid #1c5380;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.log-in-button a {
+  text-decoration: none;
+  color: azure;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.log-in-button img {
+  margin-right: 10px;
+}
+
+.logo div {
+  margin-left: 26px;
+}
+
+.img-mvl {
+  display: flex;
+  margin-left: 320px;
+  margin-top: -190px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.content {
+  width: 25%;
+  padding: 12px 30px 0 30px;
+  margin: -110px 0 0px 20px;
+  background-image: url(../images/frame.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.download-button {
+  display: flex;
+  justify-content: center;
+  margin: -65px 0 20px 90px;
+}
+
+.download-button div {
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer p {
+  padding: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #1c5380;
+}
+
+.footer p:last-child {
+  color: grey;
 }
